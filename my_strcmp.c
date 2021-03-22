@@ -23,12 +23,3 @@ int my_strcmp(char *str1, char *str2){
   return 0;
 
 }
-
-int main(void){
-  char s1[4]= "abd";
-  char s2[4]= "abf";
-  printf("Value from my_strcmp_rec is: %d\n", my_strcmp(s1, s2));
-  printf("Value from my_strcmp_rec is: %d\n", my_strcmp_rec(s1, s2));
-
-  return 0;
-}
