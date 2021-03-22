@@ -23,12 +23,3 @@ int my_atoi(char *str){
   }
   return res;
 }
-
-
-int main(void){
-  char s3[4] = "123";
-  int conversion = my_atoi(s3);
-  printf("Conversion: %d\n", conversion);
-
-  return 0;
-}
