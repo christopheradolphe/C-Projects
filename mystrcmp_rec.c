@@ -26,9 +26,9 @@ int my_strcmp_rec(char *str1, char *str2){
 }
 
 int main(void){
-  char s3[4] = "123";
-  int conversion = my_atoi(s3);
-  printf("Conversion: %d\n", conversion);
+  char s1[4]= "abd";
+  char s2[4]= "abf";
+  printf("Value from my_strcmp_rec is: %d\n", my_strcmp_rec(s1, s2));
 
   return 0;
 }
